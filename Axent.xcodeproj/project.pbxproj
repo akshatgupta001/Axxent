@@ -10,8 +10,26 @@
 		E084D04D225BBC1200E6F163 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E084D04C225BBC1200E6F163 /* AppDelegate.swift */; };
 		E084D04F225BBC1200E6F163 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E084D04E225BBC1200E6F163 /* ViewController.swift */; };
 		E084D052225BBC1200E6F163 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E084D050225BBC1200E6F163 /* Main.storyboard */; };
-		E084D054225BBC1300E6F163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E084D053225BBC1300E6F163 /* Assets.xcassets */; };
 		E084D057225BBC1300E6F163 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E084D055225BBC1300E6F163 /* LaunchScreen.storyboard */; };
+		E084D05F225BBC2500E6F163 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E084D05E225BBC2500E6F163 /* BaseViewController.swift */; };
+		E084D061225BBC3600E6F163 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E084D060225BBC3600E6F163 /* MenuViewController.swift */; };
+		E084D064225BC17200E6F163 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E084D063225BC17200E6F163 /* CreateAccountVC.swift */; };
+		E084D066225BC1A600E6F163 /* ClientListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E084D065225BC1A600E6F163 /* ClientListVC.swift */; };
+		E084D068225BC50E00E6F163 /* CreateProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E084D067225BC50E00E6F163 /* CreateProductVC.swift */; };
+		E084D06A225BC64300E6F163 /* ViewTreasuryBillsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E084D069225BC64300E6F163 /* ViewTreasuryBillsVC.swift */; };
+		E084D06C225BC69700E6F163 /* ProductListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E084D06B225BC69700E6F163 /* ProductListVC.swift */; };
+		E084D06E225BC6CE00E6F163 /* ViewBondsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E084D06D225BC6CE00E6F163 /* ViewBondsVC.swift */; };
+		E084D070225BC71300E6F163 /* ViewOtherInvestmentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E084D06F225BC71300E6F163 /* ViewOtherInvestmentsVC.swift */; };
+		E084D072225BC73B00E6F163 /* ViewStocksVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E084D071225BC73B00E6F163 /* ViewStocksVC.swift */; };
+		E084D074225BC75C00E6F163 /* ViewLoanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E084D073225BC75C00E6F163 /* ViewLoanVC.swift */; };
+		E084D076225BC78300E6F163 /* Administer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E084D075225BC78300E6F163 /* Administer.swift */; };
+		E084D078225BC7AF00E6F163 /* SendMessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E084D077225BC7AF00E6F163 /* SendMessageVC.swift */; };
+		E084D07A225BC7D400E6F163 /* SendMailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E084D079225BC7D400E6F163 /* SendMailVC.swift */; };
+		E084D07C225BC7F500E6F163 /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E084D07B225BC7F500E6F163 /* ChangePasswordVC.swift */; };
+		E084D07E225C52C100E6F163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E084D07D225C52C100E6F163 /* Assets.xcassets */; };
+		E084D082225C9E2A00E6F163 /* CustomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E084D081225C9E2A00E6F163 /* CustomLayout.swift */; };
+		E084D085225CA32C00E6F163 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E084D083225CA32C00E6F163 /* CustomCell.swift */; };
+		E084D086225CA32C00E6F163 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E084D084225CA32C00E6F163 /* CustomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +37,27 @@
 		E084D04C225BBC1200E6F163 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E084D04E225BBC1200E6F163 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E084D051225BBC1200E6F163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E084D053225BBC1300E6F163 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E084D056225BBC1300E6F163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E084D058225BBC1300E6F163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E084D05E225BBC2500E6F163 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		E084D060225BBC3600E6F163 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		E084D063225BC17200E6F163 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		E084D065225BC1A600E6F163 /* ClientListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientListVC.swift; sourceTree = "<group>"; };
+		E084D067225BC50E00E6F163 /* CreateProductVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProductVC.swift; sourceTree = "<group>"; };
+		E084D069225BC64300E6F163 /* ViewTreasuryBillsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTreasuryBillsVC.swift; sourceTree = "<group>"; };
+		E084D06B225BC69700E6F163 /* ProductListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListVC.swift; sourceTree = "<group>"; };
+		E084D06D225BC6CE00E6F163 /* ViewBondsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBondsVC.swift; sourceTree = "<group>"; };
+		E084D06F225BC71300E6F163 /* ViewOtherInvestmentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewOtherInvestmentsVC.swift; sourceTree = "<group>"; };
+		E084D071225BC73B00E6F163 /* ViewStocksVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewStocksVC.swift; sourceTree = "<group>"; };
+		E084D073225BC75C00E6F163 /* ViewLoanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLoanVC.swift; sourceTree = "<group>"; };
+		E084D075225BC78300E6F163 /* Administer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Administer.swift; sourceTree = "<group>"; };
+		E084D077225BC7AF00E6F163 /* SendMessageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessageVC.swift; sourceTree = "<group>"; };
+		E084D079225BC7D400E6F163 /* SendMailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMailVC.swift; sourceTree = "<group>"; };
+		E084D07B225BC7F500E6F163 /* ChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
+		E084D07D225C52C100E6F163 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E084D081225C9E2A00E6F163 /* CustomLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLayout.swift; sourceTree = "<group>"; };
+		E084D083225CA32C00E6F163 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		E084D084225CA32C00E6F163 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +90,56 @@
 		E084D04B225BBC1200E6F163 /* Axent */ = {
 			isa = PBXGroup;
 			children = (
+				E084D080225C9E0F00E6F163 /* View */,
+				E084D07F225C9E0200E6F163 /* Model */,
+				E084D07D225C52C100E6F163 /* Assets.xcassets */,
+				E084D062225BC14600E6F163 /* Menu */,
 				E084D04C225BBC1200E6F163 /* AppDelegate.swift */,
-				E084D04E225BBC1200E6F163 /* ViewController.swift */,
 				E084D050225BBC1200E6F163 /* Main.storyboard */,
-				E084D053225BBC1300E6F163 /* Assets.xcassets */,
+				E084D05E225BBC2500E6F163 /* BaseViewController.swift */,
+				E084D060225BBC3600E6F163 /* MenuViewController.swift */,
 				E084D055225BBC1300E6F163 /* LaunchScreen.storyboard */,
 				E084D058225BBC1300E6F163 /* Info.plist */,
 			);
 			path = Axent;
+			sourceTree = "<group>";
+		};
+		E084D062225BC14600E6F163 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				E084D04E225BBC1200E6F163 /* ViewController.swift */,
+				E084D063225BC17200E6F163 /* CreateAccountVC.swift */,
+				E084D065225BC1A600E6F163 /* ClientListVC.swift */,
+				E084D067225BC50E00E6F163 /* CreateProductVC.swift */,
+				E084D06B225BC69700E6F163 /* ProductListVC.swift */,
+				E084D069225BC64300E6F163 /* ViewTreasuryBillsVC.swift */,
+				E084D06F225BC71300E6F163 /* ViewOtherInvestmentsVC.swift */,
+				E084D06D225BC6CE00E6F163 /* ViewBondsVC.swift */,
+				E084D071225BC73B00E6F163 /* ViewStocksVC.swift */,
+				E084D073225BC75C00E6F163 /* ViewLoanVC.swift */,
+				E084D075225BC78300E6F163 /* Administer.swift */,
+				E084D077225BC7AF00E6F163 /* SendMessageVC.swift */,
+				E084D079225BC7D400E6F163 /* SendMailVC.swift */,
+				E084D07B225BC7F500E6F163 /* ChangePasswordVC.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		E084D07F225C9E0200E6F163 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E084D080225C9E0F00E6F163 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E084D081225C9E2A00E6F163 /* CustomLayout.swift */,
+				E084D083225CA32C00E6F163 /* CustomCell.swift */,
+				E084D084225CA32C00E6F163 /* CustomCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +201,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E084D057225BBC1300E6F163 /* LaunchScreen.storyboard in Resources */,
-				E084D054225BBC1300E6F163 /* Assets.xcassets in Resources */,
+				E084D07E225C52C100E6F163 /* Assets.xcassets in Resources */,
+				E084D086225CA32C00E6F163 /* CustomCell.xib in Resources */,
 				E084D052225BBC1200E6F163 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +214,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E084D082225C9E2A00E6F163 /* CustomLayout.swift in Sources */,
+				E084D070225BC71300E6F163 /* ViewOtherInvestmentsVC.swift in Sources */,
+				E084D07A225BC7D400E6F163 /* SendMailVC.swift in Sources */,
+				E084D06E225BC6CE00E6F163 /* ViewBondsVC.swift in Sources */,
 				E084D04F225BBC1200E6F163 /* ViewController.swift in Sources */,
+				E084D07C225BC7F500E6F163 /* ChangePasswordVC.swift in Sources */,
 				E084D04D225BBC1200E6F163 /* AppDelegate.swift in Sources */,
+				E084D072225BC73B00E6F163 /* ViewStocksVC.swift in Sources */,
+				E084D085225CA32C00E6F163 /* CustomCell.swift in Sources */,
+				E084D05F225BBC2500E6F163 /* BaseViewController.swift in Sources */,
+				E084D068225BC50E00E6F163 /* CreateProductVC.swift in Sources */,
+				E084D066225BC1A600E6F163 /* ClientListVC.swift in Sources */,
+				E084D06C225BC69700E6F163 /* ProductListVC.swift in Sources */,
+				E084D076225BC78300E6F163 /* Administer.swift in Sources */,
+				E084D078225BC7AF00E6F163 /* SendMessageVC.swift in Sources */,
+				E084D06A225BC64300E6F163 /* ViewTreasuryBillsVC.swift in Sources */,
+				E084D074225BC75C00E6F163 /* ViewLoanVC.swift in Sources */,
+				E084D064225BC17200E6F163 /* CreateAccountVC.swift in Sources */,
+				E084D061225BBC3600E6F163 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
