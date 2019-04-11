@@ -22,7 +22,7 @@ class ClientListVC: BaseViewController, UICollectionViewDelegate, UICollectionVi
     override func viewDidLoad() {
     //
         let temp = ["","","","",""]
-        for _ in 0...25{
+        for _ in 0...20{
           fields.append(temp)
             
         }
@@ -77,6 +77,9 @@ class ClientListVC: BaseViewController, UICollectionViewDelegate, UICollectionVi
             if(fields.count>20){
                 cell.titleLabel.text = fields[indexPath.section][indexPath.row]
             }
+            if indexPath.section%2 == 0{
+                cell.backgroundColor = UIColor.lightGray
+            }
             
         }
         
@@ -122,7 +125,7 @@ class ClientListVC: BaseViewController, UICollectionViewDelegate, UICollectionVi
                                
                                 
                             }
-                        }
+                        }//end of for user
                         print(self.fields.count)
                         
                         DispatchQueue.global().async { [weak self] in
@@ -133,29 +136,20 @@ class ClientListVC: BaseViewController, UICollectionViewDelegate, UICollectionVi
                                 let indexSet = IndexSet(integersIn: range)
                                 self!.collectionView.reloadSections(indexSet)
                                 self?.collectionView.reloadData()
-                                
-                               
-
-
-
+                              
                             }
                         }
-                        
-                        
-                    }
+                                  
+                    }//end of if let user
                     
-                
-                    
-                    
-                }catch{
+                 }
+                 catch{
                     print("captcha error: \(err.debugDescription)")
                 }
-            }else{
+              }else{
                 print("data not found error : \(err.debugDescription)")
-            }
+              }
             }.resume()
-        
-        
         
     }
 
