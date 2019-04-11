@@ -388,7 +388,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ypI-eF-sDu">
-                                                    <rect key="frame" x="54" y="16.5" width="545" height="21"/>
+                                                    <rect key="frame" x="54" y="16.5" width="253" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="hNN-ET-dlK"/>
                                                     </constraints>
@@ -568,13 +568,55 @@
                     <view key="view" contentMode="scaleToFill" id="vtT-5a-5SH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="z5Z-GU-1JK">
+                                <rect key="frame" x="0.0" y="68" width="375" height="599"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="ezm-H8-UsD">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ezm-H8-UsD" id="SwC-RZ-zPM">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="iDc-UV-ZjN">
+                                <rect key="frame" x="0.0" y="32" width="375" height="29"/>
+                                <segments>
+                                    <segment title="Loan"/>
+                                    <segment title="Investment"/>
+                                    <segment title="Tbills"/>
+                                    <segment title="Bond"/>
+                                    <segment title="Equity"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segementChanged:" destination="c6F-gK-qbc" eventType="valueChanged" id="pp5-ek-9zK"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="z5Z-GU-1JK" firstAttribute="leading" secondItem="Ica-qj-BIt" secondAttribute="leading" id="5bI-Cy-igz"/>
+                            <constraint firstItem="iDc-UV-ZjN" firstAttribute="top" secondItem="Ica-qj-BIt" secondAttribute="top" constant="12" id="9EF-1X-zgj"/>
+                            <constraint firstItem="iDc-UV-ZjN" firstAttribute="leading" secondItem="Ica-qj-BIt" secondAttribute="leading" id="GMh-3n-Ntf"/>
+                            <constraint firstItem="z5Z-GU-1JK" firstAttribute="bottom" secondItem="Ica-qj-BIt" secondAttribute="bottom" id="gao-cC-PqL"/>
+                            <constraint firstItem="iDc-UV-ZjN" firstAttribute="trailing" secondItem="Ica-qj-BIt" secondAttribute="trailing" id="ikM-xw-TBI"/>
+                            <constraint firstItem="z5Z-GU-1JK" firstAttribute="trailing" secondItem="Ica-qj-BIt" secondAttribute="trailing" id="p9T-d5-OQ2"/>
+                            <constraint firstItem="z5Z-GU-1JK" firstAttribute="top" secondItem="iDc-UV-ZjN" secondAttribute="bottom" constant="8" id="wtG-Hj-ts1"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Ica-qj-BIt"/>
                     </view>
+                    <connections>
+                        <outlet property="segmentControl" destination="iDc-UV-ZjN" id="sgf-NL-HhB"/>
+                        <outlet property="tableView" destination="z5Z-GU-1JK" id="0pr-iv-dBj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sb1-Ht-T7f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="953" y="2959"/>
+            <point key="canvasLocation" x="957.60000000000002" y="2965.3673163418293"/>
         </scene>
         <!--View Treasury BillsVC-->
         <scene sceneID="F4O-LZ-Puf">
