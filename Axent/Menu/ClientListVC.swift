@@ -13,7 +13,7 @@ class ClientListVC: BaseViewController, UICollectionViewDelegate, UICollectionVi
     
     let headings = ["Client Id", "Name", "Email", "Username", "Phone"]
     var fields : [[String]] = [["a","b","c","d","e"],["a","b","c","d","e"]]
-    
+   
    
     @IBOutlet weak var collectionView: UICollectionView!
     
